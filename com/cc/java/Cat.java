@@ -24,13 +24,4 @@ public class Cat {
         return this.age;
     }
 
-
-    // this --> Instanzvariable // Selbstreferenz
-    public String tellYourAddress() {
-    return "Blick von innen: " + this;
-}
-
-
-
-
 }
