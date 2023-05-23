@@ -12,7 +12,7 @@ public class Cat {
         this.age = age;
     }
 
-    // Getter
+    // // Getter
     public String getName() {
         if (this.checkPermission()) {
             return name;
@@ -20,10 +20,10 @@ public class Cat {
             return "Sorry, no permission";
         }
     }
-    // Setter
-    public void setName(String name) {
-        this.name = name;
-    }
+    // // Setter
+    // public void setName(String name) {
+    //     this.name = name;
+    // }
 
     public String getFurColor() {
         return furColor;
