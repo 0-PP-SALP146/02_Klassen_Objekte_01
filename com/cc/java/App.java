@@ -8,12 +8,12 @@ public class App {
      // Cat -- Referenztyp
      // cat -- Referenzvariable
          
-     Cat cat1 = new Cat();
+     Cat cat1 = new Cat("Grizabella", "white", 29);
 
      // Wertzuweisung
-     cat1.name = "Grizabella";
-     cat1.furColor = "white";
-     cat1.age = 29;
+     // cat1.name = "Grizabella";
+     // cat1.furColor = "white";
+     // cat1.age = 29;
 
      // Ausgabe über Methoden
      output(cat1.tellYourName());
@@ -24,7 +24,7 @@ public class App {
      // App.output("hi");
      output("--------------------");
     
-     Cat cat2 = new Cat();
+     Cat cat2 = new Cat("Alonzo", "grey", 35);
 
      // Wertzuweisung
      cat2.name = "Alonzo";
